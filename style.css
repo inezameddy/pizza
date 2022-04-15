@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+#header{
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    height: 100px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 50;
+    top: 0;
+}
+#header .logo{
+    display:flex;
+    width: 100%;
+    padding: 15px;
+    margin-left: 15px;
+}
+#header .logo img{
+    width: 60px;
+    height:60px;
+    border-radius:50%;
+}
+#header .logo p{
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif
+}
+#header .nav-bar{
+    width: 100%;
+}
+#header .nav-bar ul{
+    display: flex;
+}
+#header .nav-bar ul li{
+    margin: 12px;
+    list-style-type:none;
+    border-right: 2px solid black;
+    padding: 12px;
+    
+    
+}
+#header .nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main body css */
+
+#main{
+    padding: 12px;
+    margin: 12px;
+    width: 100%;
+}
+#main .form{
+    padding: 12px;
+    text-align: center;
+}
+
+#main .form form{
+    
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    padding: 10px;
+}
+#main .form form input{
+    width: 100%;
+    margin-bottom: 12px;
+    height: 40px;
+}
+#main .form form button{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: aqua;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* description*/
+
+#description{
+    display: flex;
+    padding: 2px;
+    padding-left: 200px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#description img{
+    width: 100px;
+    height: 100px;
+}
+#description .descriptionparagraph{
+  
+display: flex;
+padding:20px;
+width: 60%;
+margin-left:auto ;
+margin-right: auto;
+}
